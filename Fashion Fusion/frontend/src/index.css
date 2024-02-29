@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto:wght@400;500;600&family=Bubblegum+Sans&family=Fira+Sans:wght@500;600&display=swap");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: min(1250px, 85%);
+  margin-inline: auto;
+}
+
+.form-container {
+  width: min(500px, 75%);
+  margin-inline: auto;
+}
